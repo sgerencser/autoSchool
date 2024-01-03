@@ -46,8 +46,8 @@ public class Reference_types {
         //3
         System.out.println();
         System.out.println("Enter any string:");
-        String findThelongest = sc.nextLine();
-        String longest = Arrays.stream(findThelongest.split(" "))
+        String findTheLongest = sc.nextLine();
+        String longest = Arrays.stream(findTheLongest.split(" "))
                 .max(Comparator.comparingInt(String::length))
                 .orElse(null);
         System.out.println("The longest word in the string was: " + longest);
