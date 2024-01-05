@@ -19,7 +19,5 @@ public abstract class Figure {
         return coordinates;
     }
 
-    public double calculateArea(){
-    return 0;
-    }
+    public abstract double calculateArea();
 }
