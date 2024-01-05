@@ -9,10 +9,10 @@ public abstract class Figure {
     public String getName(){
         return name;
     }
-    public void setName(String name) {
+    protected void setName(String name) {
         this.name = name;
     }
-    public void setCoordinates(ArrayList<int[]> coordinates){
+    protected void setCoordinates(ArrayList<int[]> coordinates){
         this.coordinates = coordinates;
     }
     public  ArrayList<int[]> getCoordinates(){
