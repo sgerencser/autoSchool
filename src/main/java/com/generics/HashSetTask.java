@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class HashSetTask {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-
+        /*
         //1
         HashSet<String> hashSet = new HashSet<>(Arrays.asList("watermelon","banana","cherry","pear","melon","blackberry","ginseng","strawberry","toffee"));
         hashSet.add("potato");
@@ -294,6 +294,8 @@ public class HashSetTask {
         for(Map.Entry<String,String> entry : names3.entrySet()){
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+
+        */
     }
 
 }
